@@ -38,7 +38,7 @@ public:
 
     //op. overloading:
     vector& operator=(vector);
-    int operator*(vector);
+    int operator*(vector);  // calculeaza produsul scalar a doi vectori
     vector operator+(vector);
 
 
