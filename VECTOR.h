@@ -27,7 +27,7 @@ public:
     // setter/getter
     void setSize(int);
     int getSize();
-    int get_int(int);
+    int get_int(int); // returneaza un i element din vector
 
 
     // supraincarcare << >>:
@@ -43,9 +43,9 @@ public:
 
 
     // Metode:
-    int sum();
-    void max();
-    void sort();
+    int sum(); // suma elementelor din vector
+    void max(); // elementul maxim si pozitia sa
+    void sort(); // sorteaza crescator vectorul
 
 };
 
