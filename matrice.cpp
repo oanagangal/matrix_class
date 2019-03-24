@@ -130,13 +130,3 @@ int matrice::get_columns()
 vector& matrice::get_array(int i) {
     return a[i];
 }
-
-
-
-
-
-
-
-
-
-
