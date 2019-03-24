@@ -32,7 +32,7 @@ public:
     // setter/getter:
     int get_rows();
     int get_columns();
-    vector get_array(int);
+    vector& get_array(int);
 
 
 };
