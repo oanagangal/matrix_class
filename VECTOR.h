@@ -43,9 +43,9 @@ public:
 
 
     // Metode:
-    int sum();
-    void max();
-    void sort();
+    int sum(); // suma elementelor din vector
+    void max(); // elementul maxim si pozitia sa
+    void sort(); // sorteaza crescator vectorul
 
 };
 
