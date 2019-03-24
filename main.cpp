@@ -38,14 +38,8 @@ int main() {
   cout<<B<<endl<<C<<endl;
   matrice X=C+B;
   cout<<X;
-
-
   //cout<<funct(B,z,w);
-
-
-
-
-
+   
   g.close();
   f.close();
 
