@@ -1,5 +1,6 @@
-4
+4 // se specifica dimnesiunea pt o declarare de genul: vector x;
 1 0 -1 2
 3 //dimensiune vector
-6 3- 5
+6 3 -5
 
+// declarare fara specificarea dimensiunii: vector x(n);
