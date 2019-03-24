@@ -5,7 +5,7 @@
 
 using namespace std;
 
-bool funct(matrice A,vector x,vector y)
+bool funct(matrice A,vector x,vector y)  // functia care verifica daca Ax=y
 {
    if(A.get_columns()!=x.getSize()||A.get_rows()!=y.getSize())
     {
