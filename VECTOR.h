@@ -27,7 +27,7 @@ public:
     // setter/getter
     void setSize(int);
     int getSize();
-    int get_int(int);
+    int get_int(int); // returneaza un i element din vector
 
 
     // supraincarcare << >>:
