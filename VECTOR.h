@@ -40,6 +40,7 @@ public:
     vector& operator=(vector);
     int operator*(vector);  // calculeaza produsul scalar a doi vectori
     vector operator+(vector);
+    int operator[](int);  // modificarea facuta la laborator
 
 
     // Metode:
