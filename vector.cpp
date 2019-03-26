@@ -185,3 +185,11 @@ vector vector::operator+(vector p)
 
     return *this;
 }
+
+int vector::operator[](int i)
+{
+    if(i>=n)
+     cout<<"argument out of bound"<<endl;
+
+    return get_int(i);
+}
