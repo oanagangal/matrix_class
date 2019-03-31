@@ -13,7 +13,7 @@ vector::vector()
 vector::vector(int size)
 {
   n=size;
-  v=new int(n);
+  v=new int[n];
 }
 
 vector::vector(const vector &p)
